@@ -11,18 +11,6 @@
     <h2>Cloudinary image with colorblind accessibility</h2>
     <advanced-image [cldImg]="cloudinaryImage" [plugins]="colorBlind">
     </advanced-image>
-    <h2>Render a Cloudinary image</h2>
-    <advanced-image [cldImg]="cloudinaryImage"></advanced-image>
-    <div style="height: 20px;"></div>
-    <h2>Cloudinary image with default accessibility</h2>
-    <advanced-image
-      [cldImg]="cloudinaryImage"
-      [plugins]="accessibility"
-    ></advanced-image>
-    <div style="height: 20px;"></div>
-    <h2>Cloudinary image with colorblind accessibility</h2>
-    <advanced-image [cldImg]="cloudinaryImage" [plugins]="colorBlind">
-    </advanced-image>
     <h2>Cloudinary image with responsive</h2>
     <div>Resize window to see changes (100 is the step size in px)</div>
     <advanced-image [cldImg]="cloudinaryImage" [plugins]="responsive">
@@ -43,9 +31,5 @@
     <advanced-image [cldImg]="largeImage" [plugins]="lazyloadWithPlaceholder">
     </advanced-image>
 </div>
-  
-
-
-
 
 <router-outlet></router-outlet>
